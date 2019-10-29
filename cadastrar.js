@@ -21,7 +21,7 @@ $(function() {
             data: envio,
             success: function(data) {
                 if (data.return == true) {
-                    swal("Sucesso!", "Dados inserirdos com Êxito", "success");
+                    swal("Sucesso!", "Dados inseridos com Êxito", "success");
                 }
             }
         });
